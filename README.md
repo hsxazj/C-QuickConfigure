@@ -14,13 +14,20 @@
 
 
 
+**如何确定是否配置成功？**
+
+在powershell中执行以下命令
+
+```shell
+gcc -v
+```
+
+如果显示了版本信息则表示配置成功
+
+
+
 如果你觉得此项目对你有帮助，可以点个![Github stars](https://img.shields.io/github/stars/hsxazj/C-QuickConfigure.svg)鼓励我
 
 
 
 最后：祝你在编程世界中有所建树
-
-
-
-
-
