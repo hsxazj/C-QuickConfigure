@@ -1,3 +1,1 @@
-[environment]::SetEnvironmentvariable("MinGWPath", $("$pwd\MinGW"), "Machine")
-[environment]::SetEnvironmentvariable("PATH", "$([environment]::GetEnvironmentvariable("Path", "Machine"));%MinGWPath%\bin", "Machine")
-
+[environment]::SetEnvironmentvariable("PATH", "$([environment]::GetEnvironmentvariable("Path", "Machine"));$("$pwd\MinGW\bin")", "Machine")
